@@ -13,11 +13,9 @@
 }
 
 body {
-    background-color: var(--color-background);
+    background-color:#101120;
     color: var(--color-text);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    line-height: 1.5;
-    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -163,8 +161,17 @@ body {
 }
 
 /* Portfolio Section */
-.portfolio {
-    padding: 80px;
+.h2-p{
+    font-size: 2.5rem;
+}
+.p-p{
+    font-size: 1.5rem;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
 }
 
 .section-header {
@@ -282,11 +289,14 @@ body {
     text-decoration: none;
     font-size: 16px;
 }
-
+.bg-black {
+    background-color: #000;
+}
 
 
 .projects-container {
     display: flex;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
